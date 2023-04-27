@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(45deg, #FF0D90, #EB0D49);
+  }
+.bg{
+    padding: 10%;
+}
+h1{
+    color: #fff;
+    text-shadow: 0 0 10px #FF0D90;
+}
+hr{
+    width: 40%;
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+}
+h3{
+    color: gainsboro;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #FF0D90;
+    color: white;
+    text-shadow: 0 0 2px white;
+    width: 100%;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border: 3px solid #EB0D49;
+    color: white;
+    text-shadow: 0 0 2px white;
+    width: 100%;
+}
+.btn-primary:active{
+    background-color: black;
+    border: 1px solid #EB0D49;
+    color: white;
+    text-shadow: 0 0 2px white;
+    width: 100%;
+}
+.btn-secondarytxt{
+    background-color: transparent;
+    border: 1px solid #FF0D90;
+    color: white;
+    text-shadow: 0 0 2px white;
+    width: 140%;
+    border-radius: 0px;
+}
+.btn-secondarytxt:hover{
+    background-color: transparent;
+    border: 1px solid #EB0D49;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 2px white;
+    width: 140%;
+}
+.btn-secondarytxt button:focus{
+   outline: none;
+   border: 1px solid #EB0D49;;
+}
+p{
+    color:white;
+    width: 150%;
+}
+.btn{
+    margin-top: -50%;
+    position: relative;
+    left: 26%;
+}
+.btntxt{
+    margin-top: -50%;
+    position: relative;
+    left: 5%;
+}
+.Panel{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #9A0E34;
+    width: 30%;
+    
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px palevioletred;
+}
+.inputt{
+    padding-top: 50%;
+    position: relative;
+    left: -20%;
+}
+.suggest{
+    text-align: center;
+    width: 200%;
+    padding-top: 50%;
+    display: flex;
+    margin-left: -40%;
+}
+.inputt input{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #FF0D90;
+    text-align: center;
+    color: white;
+}
+a{
+    color: #FF0D90;
+}
+input::placeholder{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.3);
+    text-shadow:0 0 2px rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+.inputt input:focus{
+    background-color: transparent;
+    outline: none;
+}
